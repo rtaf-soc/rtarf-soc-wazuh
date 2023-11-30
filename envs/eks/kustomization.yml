@@ -10,7 +10,7 @@ kind: Kustomization
 resources:
 - ../../wazuh
 patches:
-- path: storage-class.yaml
+#- path: storage-class.yaml
 - path: indexer-resources.yaml
 - path: dashboard-resources.yaml
 - path: wazuh-master-resources.yaml
