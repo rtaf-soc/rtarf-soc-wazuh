@@ -26,7 +26,7 @@ spec:
   ports:
     - name: registration
       port: 1515
-      targetPort: 1515
+      targetPort: 31515 #1515
     - name: api
       port: 55000
       targetPort: 55000
@@ -41,7 +41,7 @@ spec:
   ports:
   - name: registration
     port: 1515
-    targetPort: 1515
+    targetPort: 31515 #1515
     nodePort: 31515
   selector:
     app: wazuh-manager
